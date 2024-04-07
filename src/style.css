@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contain{
+    background-color: brown;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px 25px;
+}
+.contain .todo{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: 1px white solid;
+
+}
+.contain input{
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
